@@ -6,7 +6,7 @@ function Artist({ name, img, songimg, title }) {
       
       <div className="Artist-container">
         <img src={img} alt="NewImage" />
-        <h3 id="name">Name of the artist: {name}</h3>
+        <h3 id="name">Name of the Artist: {name}</h3>
       </div>
       <div className="Song-container">
         <h1 id="songtitle">Song: {title}</h1>

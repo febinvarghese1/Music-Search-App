@@ -9,7 +9,7 @@ function Artist({ name, img, songimg, title }) {
         <h3 id="name">Name of the Artist: {name}</h3>
       </div>
       <div className="Song-container">
-        <h1 id="songtitle">Song: {title}</h1>
+        <h1 id="songtitle">Song: {title}</h1> 
         <div className="song-wrapper">
          
           <img id="photo" src={songimg} alt="songImg" />
